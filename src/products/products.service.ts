@@ -59,7 +59,6 @@ export class ProductsService extends PrismaClient implements OnModuleInit {
       where: { id },
       data: res
     })
-    return `This action updates a #${id} product`;
   }
 
   async remove(id: number) {
